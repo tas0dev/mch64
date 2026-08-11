@@ -131,7 +131,7 @@
     <comp lib="5" loc="(700,280)" name="ROM">
       <a name="appearance" val="classic"/>
       <a name="contents">addr/data: 8 16
-522a 5605 7058
+5205 5407 1650 5803 3ae0 5c0a 7170 6f80
 </a>
       <a name="dataWidth" val="16"/>
       <a name="label" val="PROGRAM"/>
@@ -142,7 +142,9 @@
       <a name="dataWidth" val="64"/>
       <a name="label" val="MEMORY"/>
     </comp>
-    <comp lib="6" loc="(450,560)" name="Button"/>
+    <comp lib="6" loc="(450,560)" name="Button">
+      <a name="label" val="RESET"/>
+    </comp>
     <comp loc="(570,520)" name="CPU"/>
     <wire from="(450,560)" to="(480,560)"/>
     <wire from="(470,530)" to="(550,530)"/>
