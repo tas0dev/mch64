@@ -56,7 +56,7 @@
     <a name="appearance" val="logisim_evolution"/>
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="simulationFrequency" val="2048000.0"/>
+    <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(480,540)" name="Clock">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="MAIN_CLOCK"/>
@@ -145,8 +145,9 @@
       <a name="label" val="RESET"/>
     </comp>
     <comp loc="(860,540)" name="CPU"/>
-    <wire from="(360,460)" to="(360,690)"/>
-    <wire from="(360,460)" to="(860,460)"/>
+    <wire from="(310,460)" to="(310,690)"/>
+    <wire from="(310,460)" to="(860,460)"/>
+    <wire from="(310,690)" to="(360,690)"/>
     <wire from="(460,560)" to="(640,560)"/>
     <wire from="(480,540)" to="(600,540)"/>
     <wire from="(600,540)" to="(600,730)"/>
